@@ -1,4 +1,6 @@
+import DocumentTitle from "../../components/DocumentTitle";
 const Inicio = () => {
-  return <h1>Este es el Inicio</h1>;
+  DocumentTitle("MedPortal - Inicio");
+  return <h1 className="text-xl font-bold text-MP-DarkBlue">Inicio</h1>;
 };
 export default Inicio;

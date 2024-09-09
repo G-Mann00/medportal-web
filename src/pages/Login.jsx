@@ -33,7 +33,7 @@ const Login = () => {
                 Te damos la bienvenida
               </h1>
               <div className="pb-4">
-                <Input label="Correo Electrónico" type="text" />
+                <Input label="Nombre de Usuario" type="text" />
               </div>
               <div className="relative flex w-full max-w-[24rem] pb-2">
                 <Input
@@ -52,12 +52,12 @@ const Login = () => {
                 </button>
               </div>
               <p className="text-MP-RedUrgency text-sm invisible pb-3">
-                El correo o la contraseña son incorrectos.
+                El usuario o la contraseña son incorrectos.
               </p>
               <div className="pb-2">
                 <Button
                   size="lg"
-                  className="bg-MP-Blue"
+                  className="bg-MP-Blue hover:bg-MP-BlueHover"
                   fullWidth
                   type="submit"
                 >
